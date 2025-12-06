@@ -3,69 +3,45 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&animation=fadeIn&section=footer&text=🚗🚘🚛&fontAlign=70)
 
 
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" overflow="visible"><script xmlns=""/><style>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" overflow="visible">
+<style>
   @keyframes capybara-0-head-move {
-  0% {
-  transform: translate(0px, 0px);
-  }
-  50% {
-  transform: translate(0.5px, 0px);
-  }
-  100% {
-  transform: translate(0px, 0px);
-  }
+    0% { transform: translate(0px, 0px); }
+    50% { transform: translate(0.5px, 0px); }
+    100% { transform: translate(0px, 0px); }
   }
 
   @keyframes capybara-0-leg-front-move {
-  0% {
-  transform: translate(3.8px, 15px);
-  }
-  50% {
-  transform: translate(3.8px, 15.5px);
-  }
-  100% {
-  transform: translate(3.8px, 15px);
-  }
+    0% { transform: translate(3.8px, 15px); }
+    50% { transform: translate(3.8px, 15.5px); }
+    100% { transform: translate(3.8px, 15px); }
   }
 
   @keyframes capybara-0-leg-back-move {
-  0% {
-  transform: translate(-2px, 14px);
-  }
-  50% {
-  transform: translate(-2px, 14.5px);
-  }
-  100% {
-  transform: translate(-2px, 14px);
-  }
+    0% { transform: translate(-2px, 14px); }
+    50% { transform: translate(-2px, 14.5px); }
+    100% { transform: translate(-2px, 14px); }
   }
 
   #capybara-0-head {
-  animation-name: capybara-0-head-move;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+    animation: capybara-0-head-move 1s infinite ease-in-out;
   }
 
   #capybara-0-leg-front {
-  animation-name:capybara-0-leg-front-move;
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  animation-timing-function: ease-in-out;
+    animation: capybara-0-leg-front-move 1s infinite ease-in-out;
   }
 
   #capybara-0-leg-back {
-  animation-name:capybara-0-leg-back-move;
-  animation-duration:1s;
-  animation-delay: 0.5s;
-  animation-iteration-count:infinite;
-  animation-timing-function: ease-in-out;
+    animation: capybara-0-leg-back-move 1s infinite ease-in-out;
+    animation-delay: 0.5s;
   }
-
 </style>
+
   <g id="capybara-0" transform="translate(20, 5)">
     <g id="id">0</g>
+
     <svg width="600" height="300" viewBox="0 0 200 100" fill="none" overflow="visible">
+
       <g id="capybara-0-shadow" transform="translate(-4.2, 14.5)">
         <rect width="20" height="2.5" transform="matrix(-1 0 0 1 20 1.83252)" fill="#2B4447" fill-opacity="0.1"/>
         <rect width="16.9231" height="0.625" transform="matrix(-1 0 0 1 18.4614 1.20752)" fill="#2B4447" fill-opacity="0.1"/>
@@ -73,13 +49,16 @@
         <rect width="13.8462" height="0.625" transform="matrix(-1 0 0 1 16.9233 0.58252)" fill="#2B4447" fill-opacity="0.1"/>
         <rect width="13.8462" height="0.625" transform="matrix(-1 0 0 1 16.9233 4.95752)" fill="#2B4447" fill-opacity="0.1"/>
       </g>
+
       <g id="capybara-0-leg-front" transform="translate(3.8, 15)">
         <path d="M8.08245 0.0825195H6.12369V2.62891H8.08245V0.0825195Z" fill="#C17B46"/>
         <path d="M2.20617 0.0825195H0.247406V2.62891H2.20617V0.0825195Z" fill="#C17B46"/>
       </g>
+
       <g id="capybara-0-leg-back" transform="translate(-2, 14)">
         <path d="M4.28865 0.886719H0.371124V3.62898H4.28865V0.886719Z" fill="#C17B46"/>
       </g>
+
       <g id="capybara-0-body" transform="translate(-3.2, 6.1)">
         <path d="M9.98971 0.876343H3.32993V4.59799H9.98971V0.876343Z" fill="#C17B46"/>
         <path d="M15.0825 2.83508H0V10.6701H15.0825V2.83508Z" fill="#C17B46"/>
@@ -87,6 +66,7 @@
         <path d="M13.1237 8.5155H9.20615V10.6701H13.1237V8.5155Z" fill="#A56235"/>
         <path d="M7.24743 4.79382H5.28867V6.75258H7.24743V4.79382Z" fill="#A56235"/>
       </g>
+
       <g id="capybara-0-head" transform="translate(0, 0)">
         <path d="M14.0412 0H11.299V2.54639H14.0412V0Z" fill="#8E654A"/>
         <path d="M16 1.95886H2.28867V9.79391H16V1.95886Z" fill="#C17B46"/>
@@ -96,8 +76,10 @@
         <path d="M4.24745 0H0.329926V3.91752H4.24745V0Z" fill="#8E654A"/>
         <path d="M7.38144 4.70105H4.4433V5.87631H7.38144V4.70105Z" fill="black"/>
       </g>
+
     </svg>
   </g>
 </svg>
+
 
 </div>
